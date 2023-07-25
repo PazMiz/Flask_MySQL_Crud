@@ -1,4 +1,6 @@
-# Flask_MySQL_Crud
+Flask MySQL CRUD
+This is a simple Flask application that demonstrates CRUD (Create, Read, Update, Delete) operations using MySQL as the database.
+
 Prerequisites
 Python (version 3.6 or higher)
 Flask (install using pip install flask)
@@ -16,6 +18,7 @@ To run the application, execute the following command in your terminal or comman
 
 Copy code
 python app.py
+
 Endpoints
 GET /cars: Fetch all car records from the database.
 POST /create_car: Create a new car record in the database. Send a JSON object with the "model" and "color" fields in the request body.
