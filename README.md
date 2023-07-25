@@ -16,8 +16,6 @@ To run the application, execute the following command in your terminal or comman
 
 Copy code
 python app.py
-The Flask application will start, and you can access it by navigating to http://localhost:5000 in your web browser.
-
 Endpoints
 GET /cars: Fetch all car records from the database.
 POST /create_car: Create a new car record in the database. Send a JSON object with the "model" and "color" fields in the request body.
